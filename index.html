@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -26,60 +26,65 @@
                         <label for="localidad" class="grey">Localidad:&nbsp;</label>
                     </div>
                     <div class="form-floating">
-                        <select id="competencia" class="form-select" autocomplete="off">
-                            <option value="listaSalvador" selected>Claro</option>
-                            <option value="listaPalpala">Personal</option>
-                            <option value="listaPalpala">C2</option>
+                        <select id="localidad" class="form-select" autocomplete="off">
+                            <option value="listaSalvador" selected>Lista de precios</option>
+                            <option value="listaPalpala">Palpala</option>
                         </select>
-                        <label for="competencia" class="grey">Competencia:</label>
+                        <label for="localidad" class="grey">Localidad:&nbsp;</label>
                     </div>
                 </div>
-                <div class="Servicios">
-                    <h3>Servicios</h3>
-                    <div class="row ">
-                        <div class="d-grid gap-1">
-                            <input type="checkbox" class="btn-check" id="btntv" autocomplete="off" />
-                            <label class="btn btn-outline-info" for="btntv">TV</label>
-                            <input type="checkbox" class="btn-check" id="btnhd" autocomplete="off" />
-                            <label class="btn btn-outline-info" for="btnhd">HD o Android</label>
-                            <input type="checkbox" class="btn-check" id="btnadd" autocomplete="off" />
-                            <label class="btn btn-outline-info" for="btnadd">Go Adicional</label>
-                            <div class="btn-group " role="group">
-                                <input type="radio" class="btn-check" name="options-outlined" id="btn50"
-                                    autocomplete="off" />
-                                <label class="btn btn-outline-success" for="btn50">50</label>
-                                <input type="radio" class="btn-check" name="options-outlined" id="btn100"
-                                    autocomplete="off" />
-                                <label class="btn btn-outline-light" for="btn100">100</label>
-                                <input type="radio" class="btn-check" name="options-outlined" id="bnt300"
-                                    autocomplete="off" />
-                                <label class="btn btn-outline-warning" for="bnt300">300</label>
-                                <input type="radio" class="btn-check" name="options-outlined" id="bnt500"
-                                    autocomplete="off" />
-                                <label class="btn btn-outline-danger" for="bnt500">500</label>
-                                <input type="radio" class="btn-check" name="options-outlined" id="borrar"
-                                    autocomplete="off" />
-                                <label class="btn btn-outline-danger" for="borrar">🗑</label>
+                <div class="botonera">
+                    <div class="Servicios">
+                        <h3>Servicios [Editar]</h3>
+                        <div class="row ">
+                            <div class="d-grid gap-1">
+                            <div class="row ">
+                    
+                                <input type="checkbox" class="btn-check" id="btntv" autocomplete="off" />
+                                <label class="btn btn-outline-info" for="btntv">TV</label>
+                                <input type="checkbox" class="btn-check" id="btnhd" autocomplete="off" />
+                                <label class="btn btn-outline-info" for="btnhd">HD o Android</label>
+                                <input type="checkbox" class="btn-check" id="btnadd" autocomplete="off" />
+                                <label class="btn btn-outline-info" for="btnadd">Go Adicional</label>
+                    
+                            </div>
+                                <!-- <div class="btn-group " role="group">
+                                    <input type="checkbox" class="btn-check" name="options-outlined" id="btn50"
+                                        autocomplete="off" />
+                                    <label class="btn btn-outline-success" for="btn50">50</label>
+                                    <input type="checkbox" class="btn-check" name="options-outlined" id="btn100"
+                                        autocomplete="off" />
+                                    <label class="btn btn-outline-light" for="btn100">100</label>
+                                    <input type="checkbox" class="btn-check" name="options-outlined" id="bnt300"
+                                        autocomplete="off" />
+                                    <label class="btn btn-outline-warning" for="bnt300">300</label>
+                                    <input type="checkbox" class="btn-check" name="options-outlined" id="bnt500"
+                                        autocomplete="off" />
+                                    <label class="btn btn-outline-danger" for="bnt500">500</label>
+                                    <input type="checkbox" class="btn-check" name="options-outlined" id="borrar"
+                                        autocomplete="off" />
+                                    <label class="btn btn-outline-danger" for="borrar">🗑</label>
+                                </div> -->
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="Adicionales">
-                    <h3>Adicionales</h3>
-                    <div class="d-grid gap-1">
-                        <input type="checkbox" class="btn-check" id="btnhbo" autocomplete="off" />
-                        <label class="btn btn-outline-info" for="btnhbo">HBO</label><br />
-                        <input type="checkbox" class="btn-check" id="btnad" autocomplete="off" />
-                        <label class="btn btn-outline-info" for="btnad">Adultos</label><br />
-                        <input type="checkbox" class="btn-check" id="btnfutbol" autocomplete="off" />
-                        <label class="btn btn-outline-info" for="btnfutbol">Pack Futbol</label><br />
-                        <input type="checkbox" class="btn-check" id="btnip" autocomplete="off" />
-                        <label class="btn btn-outline-info" for="btnip">IP Fija</label><br />
+                    <div class="Adicionales">
+                        <h3>Adicionales</h3>
+                        <div class="d-grid gap-1">
+                            <input type="checkbox" class="btn-check" id="btnhbo" autocomplete="off" />
+                            <label class="btn btn-outline-info" for="btnhbo">HBO</label><br />
+                            <input type="checkbox" class="btn-check" id="btnad" autocomplete="off" />
+                            <label class="btn btn-outline-info" for="btnad">Adultos</label><br />
+                            <input type="checkbox" class="btn-check" id="btnfutbol" autocomplete="off" />
+                            <label class="btn btn-outline-info" for="btnfutbol">Pack Futbol</label><br />
+                            <input type="checkbox" class="btn-check" id="btnip" autocomplete="off" />
+                            <label class="btn btn-outline-info" for="btnip">IP Fija</label><br />
+                        </div>
                     </div>
                 </div>
                 <div class="reset">
                     <h3>Reset</h3>
-                    <button type="button" class="btn btn-danger">Limpiar Todo</button>
+                    <button type="button" id="borrar" class="btn btn-danger">Limpiar Todo</button>
                 </div>
             </div>
             <div class="tabla col-8">
@@ -87,7 +92,7 @@
                 <table class="table">
                     <thead>
                         <tr class="table-dark">
-                            <th scope="col">-</th>
+                            <th scope="col">Combo</th>
                             <th scope="col" id="combo">Combo</th>
                             <th scope="col">C2</th>
                             <th scope="col">Personal</th>
@@ -97,28 +102,44 @@
                     </thead>
                     <tbody>
                         <tr>
+                            <th scope="row">Lleno</th>
+                            <td id="lleno">0</td>
+                            <td  id="c2-lleno">0</td>
+                            <td id="pp-lleno">0</td>
+                            <td id="cl-lleno">0</td>
+                            <td id="">0</td>
+                        </tr>
+                        <tr>
                             <th scope="row">Detalle</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td id="detalle">-</td>
+                            <td id="c2-detalle">-</td>
+                            <td id="pp-detalle">-</td>
+                            <td id="cl-detalle">-</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th scope="row">Precio Promo</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td>@fat</td>
-                            <td>@fat</td>
+                            <td id="promo">0</td>
+                            <td id="c2-promo">0</td>
+                            <td id="pp-promo">0</td>
+                            <td id="cl-promo">0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Detalle promo</th>
+                            <td id="descuento">0</td>
+                            <td id="c2-descuento">0</td>
+                            <td id="pp-descuento">0</td>
+                            <td id="cl-descuento">0</td>
+                            <td>0</td>
                         </tr>
                         <tr>
                             <th scope="row">Más Beneficios</th>
-                            <td>Larry the Bird</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
-                            <td>@twitter</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
                         </tr>
                     </tbody>
                 </table>
@@ -126,61 +147,72 @@
                     <h2>Editor</h2>
                     <div class=" container">
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-6">
                             <div class="form-floating mb-3">
-                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                    <option selected>Tv</option>
-                                    <option value="1">HD</option>
-                                    <option value="2">Internet 50MB</option>
-                                    <option value="2">Internet 100MB</option>
-                                    <option value="2">Internet 300MB</option>
-                                    <option value="2">Internet 500MB</option>
-                                    <option value="3">HBO</option>
-                                    <option value="3">Adultos</option>
-                                    <option value="3">Pack Futbol</option>
-                                    <option value="3">IP Fija</option>
+                                <select class="form-select" id="servicio" aria-label="Floating label select example">
+                                    <option value="btntv" selected>Tv</option>
+                                    <option value="btnhd">HD</option>
+                                    <option value="btn50">Internet 50MB</option>
+                                    <option value="btn100">Internet 100MB</option>
+                                    <option value="bnt300">Internet 300MB</option>
+                                    <option value="bnt500">Internet 500MB</option>
+                                    <option value="btnadd">Go Adicional</option>
+                                    <option value="btnhbo">HBO</option>
+                                    <option value="btnad">Adultos</option>
+                                    <option value="btnfutbol">Pack Futbol</option>
+                                    <option value="btnip">IP Fija</option>
                                 </select>
-                                <label for="floatingSelect" class="grey">Servicio/Adicionales</label>
+                                <label for="servicio" class="grey">Servicio/Adicionales</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="prestataria" aria-label="Floating label select example">
+                                    <option value="c4" selected>C4</option>
+                                    <option value="c2">C2</option>
+                                    <option value="pp">Personal</option>
+                                    <option value="cl">Claro</option>
+                                    
+                                </select>
+                                <label for="prestataria" class="grey">Prestataria</label>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class=" form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com"
-                                    autocomplete="off" value="$5000" readonly>
-                                <label for="floatingInput" class="grey">Valor de referencia</label>
+                                <input type="text" class="form-control" id="referencia" placeholder="name@example.com"
+                                autocomplete="off" value="$5000" readonly>
+                                <label for="referencia" class="grey">Valor de referencia</label>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <div class=" form-floating mb-3 ">
-                                <input type="text" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com" autocomplete="off" value="$5000" readonly>
-                                <label for="floatingInput" class="grey">Precio Lleno</label>
+                                <input type="text" class="form-control" id="lleno"
+                                    placeholder="name@example.com" autocomplete="off" value="$5000" >
+                                <label for="lleno" class="grey">Precio Lleno</label>
                             </div>
                         </div>
                         <div class="col">
 
                             <div class=" form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com" autocomplete="off" value="5%" readonly>
-                                <label for="floatingInput" class="grey">Porcentaje aumento</label>
+                                <input type="text" class="form-control" id="porcentaje-aumento"
+                                    placeholder="name@example.com" autocomplete="off" value="5%" >
+                                <label for="porcentaje-aumento" class="grey">Porcentaje aumento</label>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <div class=" form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com" autocomplete="off" value="10%" readonly>
-                                <label for="floatingInput" class="grey">Porcentaje Descuento</label>
+                                <input type="text" class="form-control" id="descuento"
+                                    placeholder="name@example.com" autocomplete="off" value="$3500" >
+                                <label for="descuento" class="grey">Precio Descuento</label>
                             </div>
                         </div>
                         <div class="col">
                             <div class=" form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com" autocomplete="off" value="$3500" readonly>
-                                <label for="floatingInput" class="grey">Precio Descuento</label>
+                                <input type="text" class="form-control" id="porcentaje-descuento"
+                                    placeholder="name@example.com" autocomplete="off" value="10%" >
+                                <label for="porcentaje-descuento" class="grey">Porcentaje Descuento</label>
                             </div>
                         </div>
                     </div>
@@ -199,4 +231,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html> -->
+</html>
